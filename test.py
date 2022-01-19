@@ -4,7 +4,7 @@ from main import is_odd
 class TestIsOdd(unittest.TestCase):
 
     def test_odd_num(self):
-        self.assertTrue(is_odd(3))
+        self.assertTrue(is_odd(2))
 
 class TestIsEven(unittest.TestCase):
 
